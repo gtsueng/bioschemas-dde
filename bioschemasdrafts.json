@@ -999,7 +999,7 @@
         ],
         "definitions": {
           "taxonname": {
-            "@type": "bioschemastypesdrafts:TaxonName",
+            "@type": "bioschemastypes:TaxonName",
             "type": "object",
             "properties": {
               "name": {
@@ -1207,7 +1207,7 @@
       ],
       "rdfs:label": "TaxonName",
       "rdfs:subClassOf": {
-        "@id": "bioschemastypesdrafts:TaxonName"
+        "@id": "bioschemastypes:TaxonName"
       },
       "$validation": {
         "$schema": "http://json-schema.org/draft-07/schema#",
@@ -11095,7 +11095,7 @@
       "rdfs:comment": "Bioschemas profile for annotating a prospective description of experimental tasks and operations, given as a LabProtocol objects. Version 1.0-DRAFT, prepared by: Florian Wetzels and H. Lukas Weil",
       "rdfs:label": "LabProtocol",
       "rdfs:subClassOf": {
-        "@id": "bioschemasdrafts:LabProtocol"
+        "@id": "bioschemastypesdrafts:LabProtocol"
       },
       "$validation": {
         "$schema": "http://json-schema.org/draft-07/schema#",
@@ -23600,7 +23600,7 @@
           }
         },
         "protocol": {
-          "@type": "bioschemastypesdrafts:LabProtocol",
+          "@type": "bioschemasdrafts:LabProtocol",
           "type": "object",
           "properties": {
             "name": {
@@ -23656,7 +23656,7 @@
       },
       "schema:rangeIncludes": [
         {
-          "@id": "bioschemastypesdrafts:TaxonName"
+          "@id": "bioschemastypes:TaxonName"
         },
         {
           "@id": "schema:Text"
@@ -23676,7 +23676,7 @@
       },
       "schema:rangeIncludes": [
         {
-          "@id": "bioschemastypesdrafts:TaxonName"
+          "@id": "bioschemastypes:TaxonName"
         },
         {
           "@id": "schema:Text"
