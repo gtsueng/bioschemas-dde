@@ -1,2 +1,2 @@
 time,namespace,name,subclassOf,version,url
-bf5bdbd2-78d7-11ee-bc69-37aa19739b54,bioschams,ComputationalTool,schema:SoftwareApplication,v1.1-DRAFT,https://github.com/BioSchemas/specifications/tree/master/ComputationalTool/jsonld/ComputationalTool_v1.1-DRAFT.json
+efacdb3c-6520-11f1-9fe1-7ced8de4161d,bioschams,ComputationalTool,schema:SoftwareApplication,v1.1-DRAFT,https://github.com/BioSchemas/specifications/tree/master/ComputationalTool/jsonld/ComputationalTool_v1.1-DRAFT.json
