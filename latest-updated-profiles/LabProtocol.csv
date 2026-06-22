@@ -1,2 +1,2 @@
 time,namespace,name,subclassOf,version,url
-a55a1eec-69b5-11ed-a12e-0ba35dfa3402,bioschams,LabProtocol,bioschemastypes:LabProtocol,v0.7-DRAFT,https://github.com/BioSchemas/specifications/tree/master/LabProtocol/jsonld/LabProtocol_v0.7-DRAFT.json
+4681bd06-6e63-11f1-8e44-7ced8d4d3b1c,bioschams,LabProtocol,bioschemastypes:LabProtocol,v1.0-DRAFT,https://github.com/BioSchemas/specifications/tree/master/LabProtocol/jsonld/LabProtocol_v1.0-DRAFT.json
