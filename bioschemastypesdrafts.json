@@ -7,7 +7,7 @@
     "bioschemastypes": "https://discovery.biothings.io/ns/bioschemastypes/",
     "bioschemastypesdrafts": "https://discovery.biothings.io/ns/bioschemastypesdrafts/",
     "dct": "http://purl.org/dc/terms/",
-    "@dateModified": "03/20/2026, 09:31:56"
+    "@dateModified": "07/06/2026, 10:47:08"
   },
   "@graph": [
     {
@@ -120,7 +120,7 @@
     {
       "@id": "bioschemastypesdrafts:LabProtocol",
       "@type": "rdfs:Class",
-      "rdfs:comment": "A lab protocol is a prospective description of a sequence of tasks and operations to be performed during experimental research in wet- or dry-labs. Version: v1.0 Changelog: * Add parameter attribute with Range PropertyValue for better conformance with LabProcess. Prepared by: Florian Wetzels and H. Lukas Weil",
+      "rdfs:comment": "A lab protocol is a prospective description of a sequence of tasks and operations to be performed during experimental research in wet- or dry-labs. Version: v0.6 Changelog: * Add parameter attribute with Range PropertyValue for better conformance with LabProcess. Prepared by: Florian Wetzels and H. Lukas Weil",
       "rdfs:label": "LabProtocol",
       "rdfs:subClassOf": {
         "@id": "schema:HowTo"
@@ -130,8 +130,8 @@
       ],
       "additional_type": "https://bioschemas.org/types#nav-draft",
       "schema:schemaVersion": [
-        "https://bioschemas.org/types/LabProtocol/1.0-DRAFT",
-        "https://github.com/BioSchemas/specifications/blob/master/LabProtocol/jsonld/type/LabProtocol_v1.0-DRAFT.json"
+        "https://bioschemas.org/types/LabProtocol/0.6-DRAFT",
+        "https://github.com/BioSchemas/specifications/blob/master/LabProtocol/jsonld/type/LabProtocol_v0.6-DRAFT.json"
       ]
     },
     {
@@ -845,7 +845,7 @@
     {
       "@id": "bioschemastypesdrafts:dateModified",
       "@type": "rdf:Property",
-      "rdfs:comment": "The date sample record was last updated.",
+      "rdfs:comment": "The date the sample record was last updated.",
       "rdfs:label": "dateModified",
       "schema:domainIncludes": {
         "@id": "bioschemastypesdrafts:Sample"
