@@ -7,7 +7,7 @@
     "bioschemastypes": "https://discovery.biothings.io/ns/bioschemastypes/",
     "bioschemastypesdrafts": "https://discovery.biothings.io/ns/bioschemastypesdrafts/",
     "dct": "http://purl.org/dc/terms/",
-    "@dateModified": "07/06/2026, 10:47:08"
+    "@dateModified": "07/22/2026, 07:09:16"
   },
   "@graph": [
     {
@@ -1360,6 +1360,9 @@
       "schema:rangeIncludes": [
         {
           "@id": "schema:Boolean"
+        },
+        {
+          "@id": "schema:Enumeration"
         }
       ]
     },
